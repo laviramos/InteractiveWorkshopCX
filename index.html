@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demonstrativo - Workshop Interativo de Atendimento via Chat</title>
+    <link rel="icon"
+        href="https://images.rawpixel.com/image_400/cHJpdmF0ZS9zci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA3L2pvYjk0OS0yMDIteC5qcGc.jpg"
+        type="image/png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="flex justify-center items-center h-screen bg-gradient-to-r from-indigo-500 to-pink-500">
+    <div id="main-content" class="bg-white p-8 rounded-xl shadow-lg max-w-3xl w-full fade-in text-center">
+        <h1 class="text-3xl font-extrabold text-gray-800 mb-6">💬 Demonstrativo - Workshop Interativo de Atendimento via
+            Chat</h1>
+        <p class="text-gray-600 mb-3 leading-tight pl-2 pr-2">Este é um demonstrativo do Workshop, e possui textos
+            genéricos
+            <em>placeholders.</em><br><br>Venha aprender sobre as melhores práticas em atendimento ao cliente e teste
+            seus conhecimentos! 🌟
+        </p>
+
+
+        <button id="start-btn"
+            class="w-full bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-4 rounded-lg transition duration-300 ease-in-out transform hover:scale-105"
+            onclick="startWorkshop()">Iniciar Workshop 🚀</button>
+        <div id="section-content" class="mt-6 text-left hidden bg-gray-200 p-4 rounded shadow-md"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
